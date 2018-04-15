@@ -1,0 +1,13 @@
+multivariate gaussian nb:			0.4887069188632477
+sentiment only gaussian nb:			0.512140228983396
+
+multivariate logistic reg:			0.5206330529073847
+sentiment only logistic reg:		0.5145109088629007
+
+vectorized, 1000:					0.325
+vectorized, 10000:					0.4415807560137457
+vectorized, 100000:					0.5576874843240531
+vectorized, LinearSVC, 1000000:		0.6463567557884365
+vectorized, SGDClassifier, 1000000:	0.6124994401898876
+"", loss='modified_huber':			0.6452595279681133
+"", loss='log':						0.621478794392942
